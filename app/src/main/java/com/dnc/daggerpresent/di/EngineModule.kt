@@ -1,5 +1,7 @@
-package com.dnc.daggerpresent
+package com.dnc.daggerpresent.di
 
+import com.dnc.daggerpresent.model.EVEngine
+import com.dnc.daggerpresent.model.Engine
 import dagger.Binds
 import dagger.Module
 

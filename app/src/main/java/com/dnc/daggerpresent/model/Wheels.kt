@@ -1,4 +1,4 @@
-package com.dnc.daggerpresent
+package com.dnc.daggerpresent.model
 
 import javax.inject.Inject
 

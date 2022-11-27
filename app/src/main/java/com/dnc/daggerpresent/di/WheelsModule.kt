@@ -1,5 +1,8 @@
-package com.dnc.daggerpresent
+package com.dnc.daggerpresent.di
 
+import com.dnc.daggerpresent.model.Rims
+import com.dnc.daggerpresent.model.Tires
+import com.dnc.daggerpresent.model.Wheels
 import dagger.Module
 import dagger.Provides
 

@@ -1,16 +1,16 @@
-package com.dnc.daggerpresent
+package com.dnc.daggerpresent.model
 
 import android.util.Log
 import javax.inject.Inject
 
 /**
  * DaggerPresent
- * EVEngine
+ * ICEEngine
  * TODO: Add a class comment
  *
  */
-class EVEngine @Inject constructor(): Engine {
+class ICEEngine @Inject constructor(): Engine {
     override fun start() {
-        Log.d(TAG,"EVEngine started.")
+        Log.d(TAG, "ICE Engine started.")
     }
 }
