@@ -1,9 +1,11 @@
 package com.dnc.daggerpresent
 
+import javax.inject.Inject
+
 
 /**
  * DaggerPresent
  * Engine
  */
-class Engine {
+class Engine @Inject constructor(){
 }

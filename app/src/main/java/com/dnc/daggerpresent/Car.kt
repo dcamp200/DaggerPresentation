@@ -7,7 +7,7 @@ import javax.inject.Inject
  * DaggerPresent
  * Car
  */
-class Car(val wheels: Wheels, val engine: Engine) {
+class Car @Inject constructor(val wheels: Wheels, val engine: Engine) {
 
     companion object {
         private const val TAG = "DaggerCar"

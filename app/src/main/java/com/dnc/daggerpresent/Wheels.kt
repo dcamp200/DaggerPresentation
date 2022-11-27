@@ -5,8 +5,6 @@ import javax.inject.Inject
 /**
  * DaggerPresent
  * Wheels
- * TODO: Add a class comment
- *
  */
-class Wheels {
+class Wheels @Inject constructor(){
 }
