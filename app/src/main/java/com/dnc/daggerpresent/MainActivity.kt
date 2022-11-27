@@ -2,7 +2,6 @@ package com.dnc.daggerpresent
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.dnc.daggerpresent.di.DaggerCarComponent
 import com.dnc.daggerpresent.model.Car
 import javax.inject.Inject
 
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        DaggerCarComponent.create().inject(this)
+        (applicationContext as Dagger2CarApplication).carComponent.inject(this)
 
         car1.drive()
         car2.drive()
