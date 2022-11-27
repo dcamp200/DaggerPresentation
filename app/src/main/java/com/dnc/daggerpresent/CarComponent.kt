@@ -7,7 +7,7 @@ import dagger.Component
  * CarComponent
  */
 
-@Component(modules = [WheelsModule::class])
+@Component(modules = [WheelsModule::class, EngineModule::class])
 interface CarComponent {
     fun getCar(): Car
     fun inject(activity: MainActivity)

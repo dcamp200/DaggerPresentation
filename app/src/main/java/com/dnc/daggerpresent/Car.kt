@@ -10,8 +10,8 @@ import javax.inject.Inject
 const val TAG = "DaggerCar"
 class Car @Inject constructor(val wheels: Wheels, val engine: Engine) {
 
-
     fun drive() {
+        engine.start()
         Log.d(TAG, "I am driving")
     }
 
