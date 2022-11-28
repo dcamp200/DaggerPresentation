@@ -15,5 +15,4 @@ import javax.inject.Singleton
 interface CarComponent {
     fun getCar(): Car
     fun inject(activity: MainActivity)
-
 }
